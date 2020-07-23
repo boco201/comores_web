@@ -1,0 +1,322 @@
+.menu-header{
+	background-color: #001730;
+
+}
+
+#titre1{
+	background-color: tomato;
+	border: solid 2px #000;
+}
+
+.nav-item-post{
+	display: block;
+	background-color: red;
+	font-weight: bold;
+	font-size: 1.1em;
+	font-style: italic;
+}
+
+.nav-item-posts{
+	display: block;
+	background-color: #C3002F;
+	font-weight: bold;
+	font-size: 1.1em;
+	font-style: italic;
+}
+
+.nav-items-post{
+	display: block;
+	background-color:#FCC133;
+	font-weight: bold;
+	font-size: 1.1em;
+	font-style: italic;
+}
+
+.date_publication{
+	color: red;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 1rem;
+}
+
+.Titre_numero1{
+	background-color: tomato;
+	color: #fff;
+	font-size: 2.5em;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+	height: 70px;
+	line-height: 70px;
+	margin-bottom: 30px;
+	margin-left: -30px;
+	margin-right: -30px
+}
+
+.Titre_numero2{
+	color: red;
+	font-size: 1.5rem;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.Titre_commentaire{
+	color: blue;
+	font-size: 1.5rem;
+	font-style: italic;
+	font-weight: bold;
+}
+
+
+/*  à controller*/
+
+
+
+.titre_principale_accueil{
+	text-align: center; 
+	background-color: #001730;
+	color: #fff;
+	height: 70px;
+	line-height: 70px;
+	font-size: 3.5rem;
+	font-weight: bold;
+	margin-bottom: 70px;
+	font-style: italic;
+}
+
+.titre_principale_accueil_exception{
+	text-align: center; 
+	color: red;
+	line-height: 70px;
+	font-size: 3.5rem;
+	font-weight: bold;
+	margin-bottom: 70px;
+	font-style: italic;
+	background-color:  #001730;
+}
+
+.box-div{
+	padding-top: 60px;
+	text-align: center;
+	color: #fff;
+	font-size: 3rem; 
+	font-weight: bold;
+}
+
+.div-box-div{
+	color: #fff; text-decoration: none;
+}
+
+ a:hover{
+	text-decoration: none;
+	color: red;
+	
+
+}
+
+.div-box-un{
+	background-color: #001730;
+	height: 200px;
+}
+
+.div-box-deux{
+	background-color: #215C64;
+	height: 200px;
+}
+
+
+.div-box-trois{
+	background-color: #51BB90; 
+	height: 200px;
+}
+
+
+
+.div-box-links{
+	color: blue;
+}
+
+.menu-table-admin-post-index{
+	background-color: #001730;
+	height: 40px;
+	line-height: 40px;
+	color: #fff;
+
+}
+
+.espace_membre{
+	margin-bottom: 40px;
+	text-align: center;
+	background-color:  tomato;
+	height: 70px;
+	line-height: 70px;
+	color: #fff;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.espace_membres{
+	margin-bottom: 40px;
+	text-align: center;
+	height: 70px;
+	line-height: 70px;
+	color: tomato;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.top_middle{
+	background-color: #fff;
+}
+
+.critiquer_debats{
+	text-align: center;
+	color: #fff;
+	background-color: #001730;
+	height: 70px;
+	line-height: 70px;
+}
+
+.critiquer_debat{
+	color: #fff;
+	background-color: #001730;
+	height: 70px;
+	line-height: 70px;
+}
+
+.regions_alsace{
+	background-color: #001730;
+	height: 150px;
+	width: 400px;
+	border-radius: 5px;
+	border-color: red;
+}
+
+.regions_picardie{
+	background-color: green;
+	height: 150px;
+	width: 400px;
+	border-radius: 5px;
+	border-color: red;
+}
+
+.regions_rhone_alpes{
+	background-color: red;
+	height: 150px;
+	width: 340px;
+	border-radius: 5px;
+	border-color: red;
+}
+
+.main-content{
+	background-color: #fff;
+}
+
+.main-containers{
+	background-color: #001730;
+	height: 80px;
+	line-height: 80px;
+	color: #fff;
+	text-align: center;
+}
+
+.menu-footer ul {
+	list-style-type: none;
+}
+
+.menu-footer ul li a{
+	color:white;
+}
+
+.menu-footer ul li a:hover{
+	color: red;
+}
+
+.menu-footers ul {
+	list-style-type: none;
+}
+
+.menu-footers ul li a{
+	color: #fff;
+}
+
+.menu-footers ul li a:hover{
+	color: red;
+}
+
+
+.titres-annonces{
+	background-color: rgb(255, 157, 0);
+	height: 50px;
+	line-height: 50px;
+	color: #fff;
+	text-align: center;
+	font-style: italic;
+}
+
+.footer-bottom{
+	background-color: rgb(93, 48, 48);
+	height: 600px;
+	line-height: 30px;
+	width: 1600px;
+	margin-left: -200px;	
+	color: #fff;
+
+}
+
+#footer{
+	background-color: grey;
+	width: 1600px;
+	margin-left: -200px;
+	margin-bottom: -250px;	
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+  padding-top: 310px;
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchText {
+  width: 100%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchText:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 100px;
+  height: 40px;
+  border: 1px solid #00B4CC;
+  background: #001730;
+  text-align: center;
+  color: #00B4CC;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 68%;
+  position: absolute;
+  top: 50%;
+  left: 48.5%;
+  transform: translate(-50%, -50%);
+}
