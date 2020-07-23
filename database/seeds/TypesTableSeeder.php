@@ -12,7 +12,7 @@ class TypesTableSeeder extends Seeder
      */
     public function run()
     {
-        Type:create([
+        Type::create([
            'name' => 'Immobilier'
         ]);
 
